@@ -1,10 +1,11 @@
 import "./App.css";
+import PokemonCard from "./components/PokemonCard";
 
 function App() {
   return (
-    <>
-      <h1>Salut Pokédex</h1>
-    </>
+    <section>
+      <PokemonCard />
+    </section>
   );
 }
 
